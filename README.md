@@ -1,21 +1,17 @@
 # 🎬 Movie Recommendation System
 
-A Machine Learning based Movie Recommendation System that suggests movies to users based on similarity and preferences.
-
-## 📌 Project Overview
-
-This project recommends movies using recommendation algorithms and data analysis techniques.  
-It helps users discover similar movies based on selected movie input.
+A Python-based Movie Recommendation System that suggests similar movies based on movie content and user selection.  
+This project uses Machine Learning techniques and a graphical user interface built using Tkinter.
 
 ---
 
-## 🚀 Features
+## 📌 Features
 
-- Movie recommendation based on similarity
-- User-friendly interface
-- Fast recommendation generation
-- Dataset preprocessing and analysis
-- Search for movies easily
+- Recommend similar movies
+- Simple and interactive GUI
+- Movie search functionality
+- Content-based recommendation system
+- Uses movie dataset analysis
 
 ---
 
@@ -23,15 +19,14 @@ It helps users discover similar movies based on selected movie input.
 
 - Python
 - Pandas
-- NumPy
 - Scikit-learn
-- Streamlit
-- Jupyter Notebook
+- Tkinter
+- Pillow (PIL)
+- CSV Dataset
 
 ---
 
 ## 📂 Project Structure
-
 
 ```bash
 movie-recommendation-system/
@@ -39,21 +34,23 @@ movie-recommendation-system/
 ├── README.md
 ├── bg.jpg
 ├── bg.png
-├── movie_recomender.zip
 ├── movie_ui.py
-└── tmdb_5000_movies.csv
+├── movie_recommender.zip
+├── tmdb_5000_movies.csv
+└── tmdb_5000_credits.zip
 ```
 
+---
 
 ## ▶️ How to Run the Project
 
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/movie-recommendation-system.git
+git clone https://github.com/anittastalen123/movie-recommendation-system.git
 ```
 
-### 2️⃣ Navigate to Project Folder
+### 2️⃣ Open Project Folder
 
 ```bash
 cd movie-recommendation-system
@@ -62,57 +59,50 @@ cd movie-recommendation-system
 ### 3️⃣ Install Required Libraries
 
 ```bash
-pip install -r requirements.txt
+pip install pandas scikit-learn pillow
 ```
 
-### 4️⃣ Run the Application
+### 4️⃣ Extract Dataset ZIP File
+
+Extract:
 
 ```bash
-streamlit run app.py
+tmdb_5000_credits.zip
 ```
 
----
+### 5️⃣ Run the Project
+
+```bash
+python movie_ui.py
+```
 
 ## 📊 Dataset
 
-The project uses movie datasets containing:
+This project uses the TMDB 5000 Movies Dataset for movie recommendation analysis.
+
+Dataset includes:
 - Movie titles
 - Genres
-- Ratings
 - Keywords
-- Cast information
+- Cast details
+- Movie overview
 
 ---
 
-## 📸 Screenshot
-
-Add your project screenshot here.
+## 📸 Project Screenshot
 
 ```md
-![Project Screenshot](screenshot.png)
+![Project Screenshot](bg.jpg,bg.png)
 ```
 
 ---
 
 ## 🔮 Future Improvements
 
-- Add user authentication
+- Add movie posters dynamically
 - Improve recommendation accuracy
-- Deploy on cloud platform
-- Add movie posters and trailers
-- Personalized recommendations
+- Add rating-based recommendations
+- Deploy as a web application
 
 ---
 
-## 👨‍💻 Author
-
-**Anu Sam**
-
-- B.Tech CSE (AIML)
-- Passionate about AI & Full Stack Development
-
----
-
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub.
